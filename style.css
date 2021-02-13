@@ -1,0 +1,107 @@
+/* Global View */
+
+body {
+  font-family: "Playfair Display", serif;
+  background-color: #ebebeb;
+}
+
+.header-container {
+  background-color: rgb(247, 244, 53);
+  min-height: 100px;
+  margin-bottom: 40px;
+}
+
+header {
+  max-width: 1024px;
+  /* background-color: grey; */
+  min-height: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 50%;
+}
+
+.logo img {
+  width: 20%;
+  height: auto;
+}
+
+nav a {
+  color: rgba(26, 30, 241, 0.705);
+  text-decoration: none;
+  padding: 10px 15px;
+  border-style: solid;
+  border-width: 3px;
+  margin-left: 20px;
+  font-family: "Fjalla One", sans-serif;
+}
+
+.container {
+  min-height: 500px;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-container {
+  background-color: rgba(170, 170, 167, 0.774);
+}
+
+footer {
+  max-width: 1024px;
+  min-height: 50px;
+  padding: 16px 0;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  font-family: "Fjalla One", sans-serif;
+}
+
+.col {
+  width: 30%;
+  margin-bottom: 40px;
+  background-color: rgba(26, 30, 241, 0.705);
+}
+
+.col a {
+  color: rgb(250, 244, 244);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.875rem;
+  padding: 15px 10px;
+  display: block;
+  line-height: 1.12rem;
+}
+
+.col img {
+  width: 100%;
+  height: auto;
+}
+
+/* Tablet View */
+@media (max-width: 760px) {
+  .col {
+    width: 45%;
+  }
+  .logo img {
+    width: 30%;
+    height: auto;
+  }
+}
+
+/* Mobile View */
+@media (max-width: 400px) {
+  .col {
+    width: 100%;
+  }
+  .logo img {
+    width: 50%;
+    height: auto;
+  }
+}
